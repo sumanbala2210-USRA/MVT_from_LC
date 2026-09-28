@@ -95,7 +95,7 @@ Run the analysis by simply providing the Fermi trigger number. The script will f
 ```bash
 python trigger_process.py -bn 260208412
 ```
-*(Note: This generates a `config` (YAML) file which can be used future run).*
+*(Note: This generates a `config` (YAML) file which can be used in future analysis).*
 
 **Advanced / Iterative Run (Using the configuration):**
 To run time-resolved analysis or tweak intervals, edit the generated YAML file and pass it back into the script. It will skip downloading and use your new settings:
@@ -192,7 +192,7 @@ Provide your data file. The script will automatically calculate the bin centers,
 ```bash
 python general_lightcurve.py -f LLE_hist.txt
 ```
-*(Note: This generates a `config` (YAML) file which can be used future run).*
+*(Note: This generates a `config` (YAML) file which can be used in future analysis).*
 
 **Advanced / Iterative Run (Using the configuration):**
 You can define custom time ranges, enable time-resolved MVT analysis, and set background intervals using a YAML configuration file.
