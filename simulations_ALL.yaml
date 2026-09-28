@@ -1,0 +1,4 @@
+# simulation_ALL.yaml
+project_settings:
+  haar_python_path: "/Users/sbala/anaconda3/bin/python" # path to the Haar Python executable
+  

@@ -1,0 +1,32 @@
+instrument: 'GBM (default)'
+trigger_number: '260208412'
+det_list: [n6, n9, n7, nb, na, n2]
+time_resolved: Yes
+total_sim: 30
+bin_width_ms: 1.0
+tstart: 0.5960999999999999
+tstop: 180.5893
+background_intervals: [[-148.7261, -38.7261], [248.9937, 358.9937]]
+T90: 145.411
+T0: 4.0961
+en_lo: 8
+en_hi: 900
+mvt_time_window: 0.5
+mvt_step_size: 0.5
+det_string: 'n6n9n7nbnan2'
+source_interval: [0.5960999999999999, 180.5893]
+energy_range: [8, 900]
+mvt_summary:
+    mvt_ms: 61.661
+    mvt_err_ms: 7.65
+    SNR_mvt: 58.14
+    median_mvt_ms: 61.501
+    mvt_err_lower_ms: 8.787
+    mvt_err_upper_ms: 11.6046
+    all_median_mvt_ms: 68.428
+    all_mvt_err_lower_ms: 15.6546
+    all_mvt_err_upper_ms: 34.501
+    successful_runs: 20
+    total_sim: 30
+    failed_runs: 10
+email_flag: False

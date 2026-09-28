@@ -1,0 +1,12 @@
+mvt_ms: 7.415
+mvt_err_ms: 4.1
+SNR_mvt: None
+median_mvt_ms: 12.679
+mvt_err_lower_ms: 3.0335
+mvt_err_upper_ms: 3.393
+all_median_mvt_ms: 13.063
+all_mvt_err_lower_ms: 2.7119
+all_mvt_err_upper_ms: 5.9453
+successful_runs: 23
+total_sim: 30
+failed_runs: 7
